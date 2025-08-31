@@ -9,9 +9,9 @@ pipeline {
                     reuseNode true
                 }
             }
-        syage('Test') {
+        stage('Test') {
             sh 'echo Test Stage'
-            
+
         }    
             steps {
                 sh '''
