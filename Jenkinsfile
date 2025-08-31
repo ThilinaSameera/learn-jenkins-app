@@ -9,6 +9,10 @@ pipeline {
                     reuseNode true
                 }
             }
+        syage('Test') {
+            sh 'echo Test Stage'
+            
+        }    
             steps {
                 sh '''
                     ls -la
